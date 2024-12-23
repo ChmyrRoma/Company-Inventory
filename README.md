@@ -73,6 +73,10 @@ This project is a web application designed to manage and display orders and prod
 - Navigation and routing are implemented using **React Router**.
 - State management and real-time updates are handled efficiently.
 
+### 6. Deployment
+- The application is deployed and accessible at the following link:
+[Inventory Application](https://inventory-sigma-ecru.vercel.app/)
+
 ## How to Run
 1. Clone the repository.
 2. Install dependencies by running `npm install`.
