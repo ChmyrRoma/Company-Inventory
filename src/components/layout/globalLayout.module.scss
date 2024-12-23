@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+
+    &__outlet {
+        width: calc(100% - 250px);
+        padding: 60px 0 60px 60px;
+    }
+}

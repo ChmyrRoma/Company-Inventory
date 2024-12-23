@@ -1,0 +1,25 @@
+.page {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+        font-size: 148px;
+        font-weight: bold;
+    }
+
+    &__text {
+        font-size: 32px;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+
+    &__button {
+        text-decoration: none;
+    }
+}

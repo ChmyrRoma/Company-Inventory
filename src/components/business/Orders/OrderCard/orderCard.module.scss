@@ -1,0 +1,103 @@
+.orderCard {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.5px solid silver;
+    height: 100%;
+    padding-bottom: 30px;
+
+    &__closeIcon {
+        position: absolute;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: #fff;
+        top: -20px;
+        right: -20px;
+        box-shadow: 1px 1px 5px 1px silver;
+
+        &:hover {
+            box-shadow: 1px 1px 15px 1px silver;
+        }
+    }
+
+    &__title {
+        padding: 35px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    &__status {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #77d9a8;
+    }
+
+    &__container {
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+        padding: 5px 35px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__logoContainer  {
+        width: 70px;
+        padding-left: 20px;
+
+        &_logo {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    &__product {
+        width: 100%;
+    }
+
+    &__infoContainer {
+        display: grid;
+        gap: 5px;
+        padding: 0 10px;
+        margin-left: 20px;
+        width: 200px;
+        overflow: scroll;
+
+        &_title {
+            font-size: 16px;
+            border-bottom: 2px solid silver;
+            width: max-content;
+        }
+
+        &_description {
+            font-size: 16px;
+            color: silver;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 16px;
+
+        &_block {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+        }
+
+        &_text {
+            color: silver;
+        }
+
+        &_textColor {
+            color: silver;
+        }
+    }
+}

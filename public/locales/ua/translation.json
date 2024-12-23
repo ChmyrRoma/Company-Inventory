@@ -1,0 +1,15 @@
+{
+  "orders": "Замовлення",
+  "products": "Продукти",
+  "search": "Пошук",
+  "dateFrom": "с",
+  "dateTo": "по",
+  "type": "Тип",
+  "deleteOrderText": "Ви впевнені, що хочете видалити це замовлення?",
+  "remove": "Видалити",
+  "cancel": "Відмінити",
+  "ordersMessage": "Продукти відсутні",
+  "serialNumber": "Серійний номер",
+  "specification": "Специфікація",
+  "date": "Дата"
+}

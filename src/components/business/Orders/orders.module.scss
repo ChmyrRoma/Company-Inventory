@@ -1,0 +1,138 @@
+.orders {
+    height: 70px;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+    overflow-y: hidden;
+    border: 0.5px solid silver;
+    overflow-x: scroll;
+    transition: width 0.5s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 1px 1px 5px 1px silver;
+    }
+
+    &__orderContainer {
+        width: calc(100% - 100px);
+    }
+
+    &__titleContainer {
+        overflow-x: auto;
+        width: 200px;
+
+        &_title {
+            width: max-content;
+        }
+    }
+
+    &__collapsed {
+        width: 400px;
+    }
+
+    &__content {
+        min-width: 150px;
+
+        &_icon {
+           width: 40px;
+            height: 40px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #eff3f6;
+        border-radius: 50%;
+
+        &_icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    &__productsSummary {
+        min-width: 55px;
+        margin-left: 10px;
+
+        &_summary {
+            font-size: 18px;
+        }
+
+        &_text {
+            color: silver;
+            font-size: 16px;
+        }
+    }
+
+    &__date {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_text {
+            color: silver;
+            font-size: 14px;
+        }
+    }
+
+    &__container {
+        display: grid;
+        font-size: 16px;
+        min-width: 90px;
+
+        &_textColor {
+            color: silver;
+        }
+    }
+
+    &__deleteContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px;
+        position: relative;
+        width: 30px;
+        height: 30px;
+
+        &:hover {
+            border-radius: 50%;
+            box-shadow: 1px 1px 5px 1px silver;
+            cursor: pointer;
+        }
+
+        &_disabled {
+            cursor: default;
+            color: #818b92;
+            pointer-events: none;
+            user-select: none;
+
+            &:hover {
+                box-shadow: none;
+                cursor: default;
+            }
+        }
+    }
+
+    &__selectOrder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #cfd9dd;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 40px;
+
+        &_icon {
+            color: white;
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

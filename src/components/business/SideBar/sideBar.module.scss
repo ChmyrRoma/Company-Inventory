@@ -1,0 +1,66 @@
+.sideBar {
+    position: relative;
+    width: 250px;
+    height: 100%;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    &__avatarContainer {
+        position: relative;
+
+        &_avatar {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            background-color: #77d9a8;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        &_settings {
+            position: absolute;
+            z-index: 5;
+            bottom: 0;
+            right: 0;
+            width: 45px;
+            height: 45px;
+            background-color: #fff;
+            box-shadow: 1px 1px 5px 1px silver;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: #818b92;
+        }
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        align-items: center;
+        gap: 20px;
+
+        &_link {
+            font-size: 16px;
+            outline: none;
+            color: black;
+            font-weight: 400;
+            text-decoration: none;
+            border-bottom: 2px solid #fff;
+        }
+
+        &_linkActive {
+            border-bottom: 2px solid #77d9a8;
+        }
+    }
+}

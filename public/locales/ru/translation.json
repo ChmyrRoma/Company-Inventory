@@ -1,0 +1,15 @@
+{
+  "orders": "Заказы",
+  "products": "Продукты",
+  "search": "Поиск",
+  "dateFrom": "с",
+  "dateTo": "по",
+  "type": "Тип",
+  "deleteOrderText": "Вы уверены, что хотите удалить этот заказ?",
+  "remove": "Удалить",
+  "cancel": "Отменить",
+  "ordersMessage": "Продукты отсуствуют",
+  "serialNumber": "Серийный номер",
+  "specification": "Спецификация",
+  "date": "Дата"
+}

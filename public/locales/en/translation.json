@@ -1,0 +1,15 @@
+{
+  "orders": "Orders",
+  "products": "Products",
+  "search": "Search",
+  "dateFrom": "from",
+  "dateTo": "to",
+  "type": "Type",
+  "deleteOrderText": "Are you sure you want to delete this order?",
+  "remove": "Remove",
+  "cancel": "Cancel",
+  "ordersMessage": "No products",
+  "serialNumber": "Serial number",
+  "specification": "Specification",
+  "date": "Date"
+}
