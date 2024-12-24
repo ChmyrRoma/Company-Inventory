@@ -67,6 +67,7 @@
     &__content {
         margin-top: 40px;
         overflow-x: auto;
+        overflow-y: hidden;
 
         &_flex {
             display: flex;

@@ -5,13 +5,14 @@
 
 .productCard {
     display: grid;
-    height: 70px;
+    height: 80px;
     border-radius: 5px;
     border: 0.5px solid silver;
     padding: 10px 20px;
     margin: 10px 0;
     width: 100%;
     overflow-x: scroll;
+    overflow-y: hidden;
 
     &:hover {
         cursor: pointer;
